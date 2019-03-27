@@ -2,8 +2,7 @@
 #define PROGRAM_FILE "dot_product.cl"
 #define DOT_FUNC "dot_product"
 
-// 2^18
-#define VEC_SIZE 262144
+#define VEC_SIZE 5461 * 12 * 4
 
 #include <math.h>
 #include <stdio.h>
